@@ -18,16 +18,16 @@ AutoPilot is a Chrome Extension that demonstrates **automating repetitive web ac
 
 1. Clone this repository:  
    ```bash
-   git clone https://github.com/your-username/autopilotx.git
+   git clone https://github.com/anandkumar16/AutoPilot.git
    cd autopilotx
    ```
    
-2. Open Google Chrome → navigate to:
+-  Open Google Chrome → navigate to:
    chrome://extensions/
 
-3. Enable Developer Mode (toggle on top right).
-4. Click Load unpacked → select the autopilotx folder.
-5. The extension will now appear in your toolbar
+-  Enable Developer Mode (toggle on top right).
+-  Click Load unpacked → select the autopilotx folder.
+-  The extension will now appear in your toolbar
 
 
 ## 🛠️ Tech Stack
