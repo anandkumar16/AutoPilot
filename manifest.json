@@ -1,0 +1,24 @@
+{
+  "manifest_version": 3,
+  "name": "E-commerce Automator Pro",
+  "version": "1.0.0",
+  "description": "MV3 automation with orchestration, adapters, and robust DOM interaction.",
+  "permissions": [
+    "scripting",
+    "activeTab",
+    "storage",
+    "notifications"
+  ],
+  "host_permissions": [
+    "https://www.amazon.com/*",
+    "https://www.ebay.com/*",
+    "https://*/*"
+  ],
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "Automator"
+  },
+  "background": {
+    "service_worker": "service_worker.js"
+  }
+}

@@ -1,0 +1,40 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Automator</title>
+    <style>
+      body { font-family: system-ui, Arial, sans-serif; margin: 12px; width: 320px; }
+      textarea { width: 100%; height: 90px; padding: 8px; }
+      button { padding: 10px; width: 100%; margin-top: 8px; cursor: pointer; }
+      .hint { color: #666; font-size: 12px; margin-top: 8px; }
+      .row { margin-top: 6px; font-size: 12px; }
+      select, input[type="checkbox"] { margin-top: 4px; }
+    </style>
+  </head>
+  <body>
+    <div class="row">
+      <label for="nl">What do you want to do?</label>
+      <textarea id="nl" placeholder="e.g., find budget gaming laptop under 60000 INR on Amazon"></textarea>
+    </div>
+
+    <div class="row">
+      <label for="site">Preferred site</label>
+      <select id="site">
+        <option value="">Auto-detect</option>
+        <option value="amazon">Amazon</option>
+        <option value="ebay">eBay</option>
+      </select>
+    </div>
+
+    <div class="row">
+      <label><input id="confirm-risky" type="checkbox" checked /> Ask before risky actions (recommended)</label>
+    </div>
+
+    <button id="run">Run Automation</button>
+
+    <div class="hint">Open the target site tab first. The tool will type the query and  search the organic result.</div>
+
+    <script src="popup.js"></script>
+  </body>
+</html>
